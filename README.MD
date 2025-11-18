@@ -83,8 +83,7 @@ Tanto a versão CMD quanto a versão Bash foram construídas com o mesmo comprom
 Reprodutibilidade, tolerância a variações de entrada e geração de saída compatível com ferramentas corporativas, especialmente Excel.
 
 
-**Desde auditores, suporte a arquivistas e executivos:**
-
+**Desde auditores, suporte a arquivistas e executivos:** <BR>
 Essa documentação e os scripts que ela trata, consolidam a intenção original do projeto. Fornecer um mecanismo estável e auditável para transformar relatórios informais em dados consistentes, estruturados e prontos para uso técnico.
 
 
