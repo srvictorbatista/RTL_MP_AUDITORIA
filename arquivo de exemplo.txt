@@ -1,0 +1,299 @@
+
+Venda
+R$
+25
+,
+30
+Transação de exemplo 133846297244
+
+14h40
+
+
+Venda
+R$
+50
+,
+60
+Transação de exemplo 133235070767
+
+14h12
+
+
+Venda
+R$
+14
+,
+00
+Transação de exemplo 133840585928
+
+14h00
+
+
+Venda
+R$
+23
+,
+08
+Transação de exemplo 133231602079
+
+13h59
+
+
+Venda
+R$
+13
+,
+00
+Transação de exemplo 133840584862
+
+13h49
+
+
+Venda
+R$
+5
+,
+13
+Transação de exemplo 133231560429
+
+13h40
+
+
+Venda
+R$
+25
+,
+00
+Transação de exemplo 133837447896
+
+13h35
+
+
+Venda
+R$
+5
+,
+90
+Transação de exemplo 133836328714
+
+13h15
+
+
+Venda
+R$
+11
+,
+36
+Transação de exemplo 133835249332
+
+13h14
+
+
+Venda
+R$
+8
+,
+35
+Transação de exemplo 133225881533
+
+13h10
+
+
+Venda
+R$
+7
+,
+99
+Transação de exemplo 133225295375
+
+13h04
+
+
+Venda
+R$
+25
+,
+00
+Transação de exemplo 133226170181
+
+12h59
+
+
+Venda
+R$
+45
+,
+96
+Transação de exemplo 133830823390
+
+12h46
+
+
+Venda
+R$
+3
+,
+70
+Transação de exemplo 133830689310
+
+12h43
+
+
+Venda
+R$
+50
+,
+00
+Transação de exemplo 133829815784
+
+12h42
+
+
+Venda
+R$
+79
+,
+90
+Transação de exemplo 133220575511
+
+12h34
+
+
+Venda
+R$
+18
+,
+99
+Transação de exemplo 133218937913
+
+12h28
+
+
+Venda
+R$
+9
+,
+90
+Transação de exemplo 133217809797
+
+12h20
+
+
+Venda
+R$
+25
+,
+00
+Transação de exemplo 133826057602
+
+12h17
+
+
+Venda
+R$
+2
+,
+30
+Transação de exemplo 133218712793
+
+12h15
+
+
+Venda
+R$
+18
+,
+98
+Transação de exemplo 133825643310
+
+12h11
+
+
+Venda
+R$
+5
+,
+80
+Transação de exemplo 133825775118
+
+12h10
+
+
+Venda
+R$
+15
+,
+18
+Transação de exemplo 133826258712
+
+12h09
+
+
+Venda
+R$
+50
+,
+00
+Transação de exemplo 133825768876
+
+12h07
+
+
+Venda
+R$
+78
+,
+94
+Transação de exemplo 133826130560
+
+12h06
+
+
+Venda
+R$
+25
+,
+00
+Transação de exemplo 133826056588
+
+12h06
+
+
+Venda
+R$
+2
+,
+50
+Transação de exemplo 133824619500
+
+12h05
+
+
+Venda
+R$
+5
+,
+85
+Transação de exemplo 133825690412
+
+12h02
+
+
+Venda
+R$
+96
+,
+20
+Transação de exemplo 133823671822
+
+12h02
+
+
+Venda
+R$
+103
+,
+25
+Transação de exemplo 133200399985
+
+10h15
