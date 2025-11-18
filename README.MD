@@ -4,7 +4,7 @@
 ### **Descrição técnica e orientações**
 Repositório original no GitHub: ***[RTL_MP_AUDITORIA](https://github.com/srvictorbatista/RTL_MP_AUDITORIA)***
 
-Este documento descreve, de forma técnica e detalhada, o funcionamento do conjunto de scripts que compõem a RTL de auditoria de movimentações financeiras exportadas manualmente da área de atividades do Mercado Livre. O conteúdo original consiste em blocos de texto copiáveis diretamente da interface do Mercado Pago. Esses trechos, quando colados em arquivos `.txt`, são processados por dois mecanismos distintos, um em Windows CMD e outro em Bash, garantindo compatibilidade entre ambientes Windows e Linux. Embora sejam implementações diferentes, ambas compartilham o mesmo modelo lógico de parser e geram um arquivo `.csv` estruturado e adequado para análise contábil, reconciliação e auditoria interna.
+Este documento descreve, de forma técnica e detalhada, o funcionamento do conjunto de scripts que compõem a RTL de auditoria de movimentações financeiras exportadas manualmente da área de atividades do Mercado Livre (Mercado Pago). O conteúdo original consiste em blocos de texto copiáveis diretamente da interface do Mercado Pago. Esses trechos, quando colados em arquivos `.txt`, são processados por dois mecanismos distintos, um em Windows CMD e outro em Bash, garantindo compatibilidade entre ambientes Windows e Linux. Embora sejam implementações diferentes, ambas compartilham o mesmo modelo lógico de parser e geram um arquivo `.csv` estruturado e adequado para análise contábil, reconciliação e auditoria interna.
 
 
 
@@ -12,7 +12,7 @@ Este documento descreve, de forma técnica e detalhada, o funcionamento do conju
 
 ## **1. Contexto e Objetivo Geral**
 
-O fluxo de movimentações exibido pelo ***[Mercado Livre](https://www.mercadopago.com.br/activities/)*** não possui opção de exportação em CSV. Assim, a solução desenvolvida converte esses registros, obtidos por simples cópia e colagem, em um formato tabular.
+O fluxo de movimentações exibido pelo ***[Mercado Pago](https://www.mercadopago.com.br/activities/)*** não possui opção de exportação em CSV. Assim, a solução desenvolvida converte esses registros, obtidos por simples cópia e colagem, em um formato tabular.
 Os scripts analisam arquivos `.txt` presentes no diretório de execução e produzem arquivos `.csv` equivalentes, aplicando regras determinísticas de interpretação de conteúdo. O CSV resultante é compatível com Excel, utiliza BOM UTF-8 e adota ponto-e-vírgula como separador.
 
 ---
@@ -63,8 +63,26 @@ Por produzir resultado idêntico ao CMD, os dois ambientes podem ser utilizados 
 
 ## **6. Considerações Técnicas Finais**
 
-A RTL desenvolvida permite converter de forma confiável o conteúdo fragmentado e desestruturado da interface do Mercado Livre em um formato tabular útil para auditorias profissionais. Ela reduz intervenção manual, evita erros de manipulação de dados e padroniza o processo de reconciliação financeira.
+A RTL desenvolvida permite converter de forma confiável o conteúdo fragmentado e desestruturado da interface do Mercado Live (Mercado Pago) em um formato tabular útil para auditorias profissionais. Ela reduz intervenção manual, evita erros de manipulação de dados e padroniza o processo de reconciliação financeira.
 
-Tanto a versão CMD quanto a versão Bash foram construídas com o mesmo compromisso: reprodutibilidade, tolerância a variações de entrada e geração de saída compatível com ferramentas corporativas, especialmente Excel.
+A origem dos dados podem ser obtivas tanto manualmente (via copia/cola) quanto de forma automazada (raspagem de dados). Embora não amparada por este script, a segunda opção é a mais recomendada em situações que abordem um grande volume de dados (o que ajuda a mitigar erro humano). Por padrão ambos os scripts (CMD e BASH) estão áptos a suportarem até 200 mil transações. Mas nada impede que esta capacidade seja aumentada manualmente, reconfigurando os scripts internamente de:
 
-Essa documentação consolida a intenção original do projeto: fornecer um mecanismo estável e auditável para transformar relatórios informais em dados consistentes, estruturados e prontos para uso técnico.
+```
+"TOTAL VENDAS:";"=SOMA(B2:B200000)"
+
+```
+para
+```
+"TOTAL VENDAS:";"=SOMA(B2:B<novo numero total desejado de transações suportadas>)"
+
+```
+
+
+
+Tanto a versão CMD quanto a versão Bash foram construídas com o mesmo compromisso: 
+Reprodutibilidade, tolerância a variações de entrada e geração de saída compatível com ferramentas corporativas, especialmente Excel.
+
+*Desde auditores, suporte a arquivistas e executivos:*
+Essa documentação e os scripts que ela trata, consolidam a intenção original do projeto. Fornecer um mecanismo estável e auditável para transformar relatórios informais em dados consistentes, estruturados e prontos para uso técnico.
+
+
