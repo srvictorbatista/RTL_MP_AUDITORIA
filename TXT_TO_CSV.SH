@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 ######################################################################################################################################################################
 # TXT_TO_CSV.SH [RTL em script bash] Versão 0.0.1 
+# Repositório original no GitHub: https://github.com/srvictorbatista/RTL_MP_AUDITORIA
 ######################################################################################################################################################################
 #
 # Este script foi concebido para processar arquivos .txt oriundos da página de movidemntações do MercadoLivre (https://www.mercadopago.com.br/activities/2): 
