@@ -2,6 +2,7 @@
 
 :: ####################################################################################################################################################################
 :: TXT_TO_CSV.CMD  [RTL em Windows Batch]  Versão 0.0.1
+:: Repositório original no GitHub: https://github.com/srvictorbatista/RTL_MP_AUDITORIA
 :: ####################################################################################################################################################################
 ::
 :: Este script foi desenvolvido para processar arquivos .txt exportados manualmente da página de movimentações do Mercado Livre
