@@ -1,9 +1,12 @@
 
-# **RTL DE AUDITORIA DE TRANSAÇÕES DO MERCADO PAGO/LIVRE EM CMD/BASH**
+# **[RTL DE AUDITORIA DE TRANSAÇÕES DO MERCADO PAGO/LIVRE EM CMD/BASH](https://github.com/srvictorbatista/RTL_MP_AUDITORIA/)**
 
 ### **Descrição técnica e orientações**
+Repositório original no GitHub: ***[RTL_MP_AUDITORIA](https://github.com/srvictorbatista/RTL_MP_AUDITORIA)***
 
 Este documento descreve, de forma técnica e detalhada, o funcionamento do conjunto de scripts que compõem a RTL de auditoria de movimentações financeiras exportadas manualmente da área de atividades do Mercado Livre. O conteúdo original consiste em blocos de texto copiáveis diretamente da interface do Mercado Pago. Esses trechos, quando colados em arquivos `.txt`, são processados por dois mecanismos distintos, um em Windows CMD e outro em Bash, garantindo compatibilidade entre ambientes Windows e Linux. Embora sejam implementações diferentes, ambas compartilham o mesmo modelo lógico de parser e geram um arquivo `.csv` estruturado e adequado para análise contábil, reconciliação e auditoria interna.
+
+
 
 ---
 
